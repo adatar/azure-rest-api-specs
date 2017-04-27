@@ -4226,6 +4226,10 @@
         "extensionProfile": {
           "$ref": "#/definitions/VirtualMachineScaleSetExtensionProfile",
           "description": "The virtual machine scale set extension profile."
+        },
+        "diagnosticsProfile": {
+          "$ref": "#/definitions/DiagnosticsProfile",
+          "description": "The virtual machine scale set diagnostics profile."
         }
       },
       "description": "Describes a virtual machine scale set virtual machine profile."
