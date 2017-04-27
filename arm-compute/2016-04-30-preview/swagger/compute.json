@@ -4843,6 +4843,10 @@
         "diagnosticsProfile": {
           "$ref": "#/definitions/DiagnosticsProfile",
           "description": "The virtual machine scale set diagnostics profile."
+        },
+        "licenseType": {
+          "type": "string",
+          "description": "The license type, which is for bring your own license scenario."
         }
       },
       "description": "Describes a virtual machine scale set virtual machine profile."
